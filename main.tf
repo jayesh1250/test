@@ -25,3 +25,8 @@ module "eks" {
 module "rds"{
     source = "./modules/rds"
 }
+
+
+module "redshift"{
+    source = "./modules/redshift"
+}
